@@ -1,0 +1,47 @@
+# vsim -L CatRecognizer_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} CatRecognizer_lib.RegisterFile_tb 
+# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading sv_std.std
+# Loading CatRecognizer_lib.RegisterFile_tb
+# Loading CatRecognizer_lib.RegisterFile
+# Loading CatRecognizer_lib.RegisterFile_tester
+# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/CatRecognizer/CatRecognizer_lib/hdl/registerfile_tb_tb_rtl.v(37): [PCDPC] - Port size (4096 or 4096) does not match connection size (120) for port 'temp_data_out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/CatRecognizer/CatRecognizer_lib/hdl/RegisterFile.v(13).
+# 
+#         Region: /RegisterFile_tb/rftestRegisterFile
+# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/CatRecognizer/CatRecognizer_lib/hdl/registerfile_tb_tb_rtl.v(47): [PCDPC] - Port size (4096 or 4096) does not match connection size (120) for port 'temp_data_out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/CatRecognizer/CatRecognizer_lib/hdl/registerfile_tester_rtl.v(18).
+# 
+#         Region: /RegisterFile_tb/rftestRegisterFile_tester
+add wave -position insertpoint  \
+sim:/RegisterFile_tb/temp_data_out
+# hds_restart 
+restart -force
+# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading sv_std.std
+# Loading CatRecognizer_lib.RegisterFile_tb
+# Loading CatRecognizer_lib.RegisterFile
+# Loading CatRecognizer_lib.RegisterFile_tester
+add wave -position insertpoint  \
+sim:/RegisterFile_tb/temp_data_out
+add wave -position insertpoint  \
+sim:/RegisterFile_tb/clock
+add wave -position insertpoint  \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[4095]} \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[4094]}
+add wave -position insertpoint  \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[5]} \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[4]} \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[3]} \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[2]} \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[1]} \
+{sim:/RegisterFile_tb/rftestRegisterFile/registers[0]}
+run
+# hds_restart 
+restart -force
+# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading sv_std.std
+# Loading CatRecognizer_lib.RegisterFile_tb
+# Loading CatRecognizer_lib.RegisterFile
+# Loading CatRecognizer_lib.RegisterFile_tester
+# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/CatRecognizer/CatRecognizer_lib/hdl/registerfile_tb_tb_rtl.v(47): [PCDPC] - Port size (4096 or 4096) does not match connection size (98304) for port 'temp_data_out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/CatRecognizer/CatRecognizer_lib/hdl/registerfile_tester_rtl.v(18).
+# 
+#         Region: /RegisterFile_tb/rftestRegisterFile_tester
+run

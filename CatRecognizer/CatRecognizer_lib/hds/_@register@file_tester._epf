@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom RegisterFile_tester
+DEFAULT_FILE atom registerfile_tester_rtl.v
