@@ -59,6 +59,4 @@ module NeuronCalculator(x,b,w,clock,reset,enable,get_result,out);
 	.out ( pixelw3 )
 	);
 
-// ### Please start your Verilog code here ### 
-
 endmodule

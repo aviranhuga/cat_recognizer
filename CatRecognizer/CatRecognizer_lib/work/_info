@@ -90,8 +90,6 @@ n@neuron@calculator
 !s107 C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v|
 !s101 -O0
 vNeuronCalculator_tb
-!i10b 1
-!s100 iGWQoD7f@ZW1c@dd5bbUk3
 IWY4JWoZIPNoQ6:kG3MNSm2
 VZ>LJ>IQl`H=_Q>>zKNPz93
 R2
@@ -101,17 +99,17 @@ FC:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/Ca
 L0 13
 R3
 r1
-!s85 0
 31
 Z10 !s108 1542827705.903000
 Z11 !s107 C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v|C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tester_rtl.v|
 R8
-!s101 -O0
 R9
 n@neuron@calculator_tb
-vNeuronCalculator_tester
 !i10b 1
-!s100 ?O6362KGZf8G`LNY3;R5O2
+!s100 iGWQoD7f@ZW1c@dd5bbUk3
+!s85 0
+!s101 -O0
+vNeuronCalculator_tester
 I;DQk5RcF<5QBU3^HH?2]B0
 VDUGDM@[M37TH2nlX[8gQL2
 R2
@@ -121,14 +119,16 @@ FC:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/Ca
 L0 12
 R3
 r1
-!s85 0
 31
 R10
 R11
 R8
-!s101 -O0
 R9
 n@neuron@calculator_tester
+!i10b 1
+!s100 ?O6362KGZf8G`LNY3;R5O2
+!s85 0
+!s101 -O0
 vRegisterFile
 R1
 IW9bno3GjziOk;:5HRE4DI1
@@ -196,5 +196,72 @@ n@register@file_tester
 !i10b 1
 !s100 g90TUZD4e8AM<[>0PH04h1
 !s105 registerfile_tester_rtl_v_unit
+!s85 0
+!s101 -O0
+vweights_memory
+R1
+!i10b 1
+!s100 LO88>`d]ZW:oOff5ekbY92
+IzEYn4llCNkECc[?0H]on20
+V6P0Ag_<o@R^6?]Q_mP36g0
+Z15 !s105 weights_memory_v_unit
+S1
+R2
+w1543168866
+8C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory.v
+FC:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory.v
+F../hdl/weights5.v
+L0 13
+R3
+r1
+!s85 0
+31
+!s108 1543169004.620000
+!s107 ../hdl/weights5.v|C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory.v|
+R4
+!s101 -O0
+R5
+vweights_memory_tb
+R1
+IdF3zIjdFBY_g99B4Ld@5K1
+V[MR8J^nj[0lDh5e2Ck8003
+S1
+R2
+w1543164714
+8C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tb_tb_rtl.v
+FC:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tb_tb_rtl.v
+L0 13
+R3
+r1
+31
+!s108 1543168494.993000
+!s107 ../hdl/weights5.v|C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tb_tb_rtl.v|C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory.v|
+R4
+R5
+!i10b 1
+!s100 eeT5NSzDf5P1Qe5EeT:RZ1
+!s105 weights_memory_tb_tb_rtl_v_unit
+!s85 0
+!s101 -O0
+vweights_memory_tester
+R1
+IO^I5E:U;PC];SU>8Uz0A91
+V0`F@eMJjR=V5i<CR0WP8<0
+R15
+S1
+R2
+w1543164719
+8C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tester_rtl.v
+FC:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tester_rtl.v
+L0 12
+R3
+r1
+31
+R4
+R5
+!s108 1543166545.284000
+!s107 C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tb_tb_rtl.v|C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory_tester_rtl.v|C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/weights_memory.v|
+!i10b 1
+!s100 e@NeFTBl8Z8KUd1cn]>7l0
 !s85 0
 !s101 -O0

@@ -1,115 +1,60 @@
-# vsim -L CatRecognizer_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} CatRecognizer_lib.NeuronCalculator_tb 
+# vsim -L CatRecognizer_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} CatRecognizer_lib.weights_memory_tb 
 # Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# Loading CatRecognizer_lib.NeuronCalculator_tb
 # Loading sv_std.std
-# Loading CatRecognizer_lib.NeuronCalculator
-# Loading CatRecognizer_lib.Neuron
-# Loading CatRecognizer_lib.NeuronCalculator_tester
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(39): [PCDPC] - Port size (15 or 15) does not match connection size (24) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(43): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/Neuron.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/neuron1
+# Loading CatRecognizer_lib.weights_memory_tb
+# Loading CatRecognizer_lib.weights_memory
+# Loading CatRecognizer_lib.weights_memory_tester
+run
+add wave -position insertpoint  \
+{sim:/weights_memory_tb/U_0/M[0]}
 # hds_restart 
 restart -force
 # Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# Loading CatRecognizer_lib.NeuronCalculator_tb
 # Loading sv_std.std
-# Loading CatRecognizer_lib.NeuronCalculator
-# Loading CatRecognizer_lib.Neuron
-# Loading CatRecognizer_lib.NeuronCalculator_tester
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(39): [PCDPC] - Port size (15 or 15) does not match connection size (24) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(43): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/Neuron.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/neuron1
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(50): [PCDPC] - Port size (5 or 5) does not match connection size (24) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tester_rtl.v(14).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator_tester
-add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/x
-add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/w
-add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/w_ext
+# Loading CatRecognizer_lib.weights_memory_tb
+# Loading CatRecognizer_lib.weights_memory
+# Loading CatRecognizer_lib.weights_memory_tester
 run
 # hds_restart 
 restart -force
 # Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# Loading CatRecognizer_lib.NeuronCalculator_tb
 # Loading sv_std.std
-# Loading CatRecognizer_lib.NeuronCalculator
-# Loading CatRecognizer_lib.Neuron
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(39): [PCDPC] - Port size (15 or 15) does not match connection size (24) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(43): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/Neuron.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/neuron1
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(50): [PCDPC] - Port size (5 or 5) does not match connection size (24) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tester_rtl.v(14).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator_tester
+# Loading CatRecognizer_lib.weights_memory_tb
+# Loading CatRecognizer_lib.weights_memory
+# Loading CatRecognizer_lib.weights_memory_tester
+# Load canceled
 run
 # hds_restart 
 restart -force
 # Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# Loading CatRecognizer_lib.NeuronCalculator_tb
 # Loading sv_std.std
-# Loading CatRecognizer_lib.NeuronCalculator
-# Loading CatRecognizer_lib.Neuron
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(40): [PCDPC] - Port size (15 or 15) does not match connection size (5) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(43): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/Neuron.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/neuron1
-run
-# hds_restart 
-restart -force
-# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# Loading CatRecognizer_lib.NeuronCalculator_tb
-# Loading sv_std.std
-# Loading CatRecognizer_lib.NeuronCalculator
-# Loading CatRecognizer_lib.Neuron
-# Loading CatRecognizer_lib.NeuronCalculator_tester
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(40): [PCDPC] - Port size (15 or 15) does not match connection size (5) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(51): [PCDPC] - Port size (15 or 15) does not match connection size (5) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tester_rtl.v(14).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator_tester
-# Warning in wave window restart: (vish-4014) No objects found matching '/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/w_ext'. 
+# Loading CatRecognizer_lib.weights_memory_tb
+# Loading CatRecognizer_lib.weights_memory
+# Loading CatRecognizer_lib.weights_memory_tester
+# ** Warning: Design size of 3 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
 add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/w_ext3 \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/w_ext2 \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/w_ext1
-add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/pixelw3 \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/pixelw2 \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/pixelw1
-add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator/acc
-# hds_restart 
-restart -force
-# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# Loading CatRecognizer_lib.NeuronCalculator_tb
-# Loading sv_std.std
-# Loading CatRecognizer_lib.NeuronCalculator
-# Loading CatRecognizer_lib.Neuron
-# Loading CatRecognizer_lib.NeuronCalculator_tester
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(40): [PCDPC] - Port size (15 or 15) does not match connection size (5) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/NeuronCalculator.v(13).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator
-# ** Warning: (vsim-3015) C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tb_tb_rtl.v(51): [PCDPC] - Port size (15 or 15) does not match connection size (5) for port 'w'. The port definition is at: C:/Users/amitb/Desktop/UNIV/year4/logi/ass/ass1/cat_recognizer/CatRecognizer/CatRecognizer_lib/hdl/neuroncalculator_tester_rtl.v(14).
-# 
-#         Region: /NeuronCalculator_tb/NeuronCalculatortestNeuronCalculator_tester
-add wave -position insertpoint  \
-sim:/NeuronCalculator_tb/reset \
-sim:/NeuronCalculator_tb/enable \
-sim:/NeuronCalculator_tb/clock
-run
+sim:/weights_memory_tb/U_0/M
 run
 # 0
 # 
+# hds_restart 
+restart -force
+# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading sv_std.std
+# Loading CatRecognizer_lib.weights_memory_tb
+# Loading CatRecognizer_lib.weights_memory
+# Loading CatRecognizer_lib.weights_memory_tester
+# ** Warning: Design size of 3 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+run
+# hds_restart 
+restart -force
+# Loading C:/MentorGraphics/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading sv_std.std
+# Loading CatRecognizer_lib.weights_memory_tb
+# Loading CatRecognizer_lib.weights_memory
+# Loading CatRecognizer_lib.weights_memory_tester
+run

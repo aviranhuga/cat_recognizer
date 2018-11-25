@@ -1,1 +1,1 @@
- -L CatRecognizer_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays CatRecognizer_lib.NeuronCalculator_tb
+ -L CatRecognizer_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays CatRecognizer_lib.weights_memory_tb
